@@ -1,0 +1,13 @@
+# ignore ALL .log files
+*.log
+
+# ignore any files created in the LaTex compilation process
+*.aux
+*.ps
+*.dvi
+*.gz
+*.fls
+*.fdb_latexmk
+
+# ignore ALL files in ANY directory named temp
+temp/
