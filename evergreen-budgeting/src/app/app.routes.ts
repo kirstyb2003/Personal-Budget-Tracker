@@ -1,9 +1,16 @@
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NgModule } from '@angular/core';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { SettingsPageComponent } from './settings-page/settings-page.component';
+import { ReportsPageComponent } from './reports-page/reports-page.component';
 
 export const routes: Routes = [
-    { path: '', component: HomePageComponent }
+    { path: 'home', component: HomePageComponent },
+    { path: 'profile', component: ProfilePageComponent },
+    { path: 'settings', component: SettingsPageComponent },
+    { path: 'reports', component: ReportsPageComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
