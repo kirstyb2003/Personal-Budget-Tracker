@@ -1,16 +1,13 @@
 .nav-bar-icons {
     width: 30px;
     height: 30px;
-    padding: 2rem
+    display: block; 
+    margin: auto;
 }
 
-.content {
-    display: flex;
-}
-
-h1 {
-    padding: 0.75rem
-}
+// h1 {
+//     padding: 0.75rem
+// }
 
 .nav-area {
     display: flex;
@@ -18,3 +15,18 @@ h1 {
     align-items: center;
     border-bottom: 0.25rem solid green ;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%
+}
+    
+.home-web { grid-area: 1 / 1 / 2 / 2;}
+.profile-web { grid-area: 1 / 2 / 2 / 3; }
+.title { grid-area: 1 / 3 / 2 / 4; text-align: center;}
+.settings-web { grid-area: 1 / 4 / 2 / 5; }
+.reports-web { grid-area: 1 / 5 / 2 / 6; }
