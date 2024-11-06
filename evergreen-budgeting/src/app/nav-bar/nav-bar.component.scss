@@ -12,22 +12,28 @@ h1 {
     font-family: "papyrus";
     color: $dark-green;
     font-size: 2rem;
+    font-weight: bold;
     margin: auto;
     display: block;
 }
 
+.hamburg {
+    color: $dark-green
+}
+
 .nav-area-web {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 0.25rem solid $dark-green ;
 }
 
 .nav-area-phone {
     display: none;
+}
+
+.nav-area-web, .nav-area-phone {
     justify-content: center;
     align-items: center;
-    border-bottom: 0.25rem solid $dark-green ;
+    border-bottom: 0.25rem solid $dark-green;
+    padding: 1rem
 }
 
 .content {
@@ -58,7 +64,7 @@ h1 {
 .home-phone { grid-area: 1 / 2 / 2 / 3; }
 .reports-phone { grid-area: 1 / 4 / 2 / 5; }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
     .nav-area-web {
         display: none;
     }
