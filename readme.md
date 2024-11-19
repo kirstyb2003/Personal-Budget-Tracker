@@ -1,3 +1,6 @@
+# Code Repository
+Due to deployment issues and a certain structure being needed, the code for this project can be found here [Evergreen-Budgeting-App](https://github.com/kirstyb2003/evergreen-budgeting-app) and it can be found deployed [here](https://evergreen-budgeting-app.web.app).
+
 # Guidance
 This is a suggested template for a project. You can modify it as you please, but
 but remember to keep:
