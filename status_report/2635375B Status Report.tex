@@ -1,0 +1,99 @@
+
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage{times}
+    \usepackage{fullpage}
+    
+    \title{ Personal Budget Tracker }
+    \author{ Kirsty Balfour - 2635375B }
+
+    \begin{document}
+    \maketitle  
+     
+\section{Status report}
+
+\subsection{Proposal}\label{proposal}
+
+\subsubsection{Motivation}\label{motivation}
+Managing personal finances effectively is a common challenge for many individuals. Without a clear system for tracking income, expenses, and savings, people often struggle to achieve their financial goals. This project aims to address this issue by providing a free and easy to use personal budget tracker web application. The application will allow users to take control of their financial health by logging and categorising transactions, visualising spending patterns, and setting and monitoring savings goals.
+
+\subsubsection{Aims}\label{aims}
+The project aims to develop a personal budget tracker application with the following goals:
+\begin{itemize}
+    \item Implement a secure user authentication system to ensure data privacy.
+    \item Enable users to add, edit, and delete financial transactions.
+    \item Allow categorisation of transactions into predefined categories such as groceries, transportation, and entertainment.
+    \item Generate financial summaries and visualisations of spending patterns (e.g., charts or graphs).
+    \item Provide a system for users to set and track savings goals.
+    \item Ensure persistent storage of user data for reliability and accessibility.
+  \end{itemize}
+
+
+
+
+\subsection{Progress}\label{progress}
+My progress so far is as follows:
+\begin{itemize}
+    \item Conducted a comparison of existing budgeting apps and formulated an extensive requirements list based on the project proposal and these apps.
+    \item Carried out a potential users survey to gain an idea of how often people budget, why people may not be budgeting, and any particular features users would want to see.
+    \item Finalised an MVP based on the Must Haves from my refined requirements list that took into account the user survey results.
+    \item Researched tech stacks and appropriate formats for the application and landed on a Progressive Web App that uses an Angular front-end, Express.js server, and a PostgreSQL database.
+    \item Designed an architecture diagram, ER diagram, and wireframes for the MVP aspects of the application.
+    \item Began implementation and have the following pages up and running:
+    \begin{itemize}
+        \item Login and registration pages
+        \item Log a transaction page
+        \item Set a budget page
+    \end{itemize} 
+    \item Successfully deployed the app using Firebase, Vercel and Superbase hosting services. The application can be found \href{https://evergreen-budgeting-app.web.app/home}{here}.
+\end{itemize}
+
+\subsection{Problems and risks}\label{problems-and-risks}
+
+\subsubsection{Problems}\label{problems}
+I have dealt with the following problems so far:
+\begin{itemize}
+    \item Had to change tech stacks from a React App to an Angular App due to Angular having more built-in support for Progressive Web Apps.
+    \item Deployment took a lot more time than I initially anticipated and resulted in having to restructure my code base and try multiple different free hosting services.
+    \item Have dealt with CORS errors when trying to access my server on the deployed app. These are now fixed but potentially present security vulnerabilities.
+\end{itemize}
+
+\subsubsection{Risks}\label{risks}
+Anticipated problems are as follows:
+\begin{itemize}
+    \item Security vulnerabilities: I have received communications from the database hosting service indicating that there are vulnerabilities in the current setup that must be addressed. I must also ensure that my CORS error fix doesn’t allow access to anyone.
+    \item Data laws and other regulations: I must ensure that I am complying with any laws as I am dealing with special category data (i.e., financial information). This may require research to determine if I need a privacy notice or similar documentation.
+    \item Free hosting services longevity: As my app is currently hosted on three separate free hosting services, if one begins to charge or goes offline, I will need to rework my current deployment method.
+    \item Implementation workload: The app still has many pages that need to be completed for it to be fully functional. The pace I am currently working at may result in an incomplete product.
+\end{itemize}
+
+
+\subsection{Plan}\label{plan}
+
+\begin{tabular}{|c|p{13cm}|}
+    \hline
+    Week Beginning & Goal \\ \hline
+    16/12/2024 & Complete the set a savings goal form/page \\ \hline
+    23/12/2024 & Complete the home page overview, ensuring that all transactions, budgets and savings goals can be edited/deleted \\ \hline
+    30/12/2024 & Implement the different expense, savings, income views \\ \hline
+    06/01/2025 & Implement the report/charts page \\ \hline
+    13/01/2025 & Testing - Add unit tests \\ \hline
+    20/01/2025 & Testing - Add integration tests \\ \hline
+    27/01/2025 & Evaluation - plan a user evaluation \\ \hline
+    03/02/2025 & Evaluation - conduct the user evaluation \\ \hline
+    10/02/2025 & Evaluation - analyse the results of the user evaluation \\ \hline
+    17/02/2025 & Write Dissertation \\ \hline
+    24/02/2025 & Write Dissertation \\ \hline
+    03/03/2025 & Write Dissertation \\ \hline
+    10/03/2025 & Write Dissertation \\ \hline
+    17/03/2025 & Finish Dissertation \& Start Presentation \\ \hline
+    24/03/2025 & Submit Dissertation \& Presentation \\ \hline
+\end{tabular}
+
+    
+
+    
+\subsection{Ethics and data}\label{ethics}
+The evaluation I conduct will involve human participants using my personal budgeting application. I have verified that the ethics checklist will apply to any evaluation I need to do. I will sign and complete the checklist. I will collect qualitative data on how easy the application was to use, what participants liked/disliked, and what they would change. This will help me determine what could be improved about my app and if it meets the goals I set out at the beginning of my project.
+
+\end{document}
