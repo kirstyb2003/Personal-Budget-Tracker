@@ -9,32 +9,32 @@ Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
-* **Week 1**
-* **Week 2**
-* **Week 3**
-* **Week 4**
-* **Week 5**
-* **Week 6**
-* **Week 7**
-* **Week 8**
-* **Week 9**
-* **Week 10**
-* **Week 11 [PROJECT WEEK]**
+* **Week 1** - Idea Generation, requirements
+* **Week 2** - Requirements, User Survey, App Comparison
+* **Week 3** - Analysis of User Surveys, Architecture Diagram, Initial Implementation Setup.
+* **Week 4** - Wireframes & ER Diagram.
+* **Week 5** - Implementation
+* **Week 6** - Implementation
+* **Week 7** - Implementation
+* **Week 8** - Implementation
+* **Week 9** - Implementation
+* **Week 10** - Implementation
+* **Week 11 [PROJECT WEEK]** - Testing
 * **Week 12 [PROJECT WEEK]** Status report submitted.
 
 ## Winter break
 
 ## Spring Semester
 
-* **Week 13**
-* **Week 14**
-* **Week 15**
-* **Week 16**
-* **Week 17**
-* **Week 19**
-* **Week 20**
-* **Week 21**
-* **Week 22**
-* **Week 23 [TERM ENDS]**
+* **Week 13** - Testing - Add unit tests
+* **Week 14** - Testing - Add integration tests
+* **Week 15** - Evaluation - plan a user evaluation
+* **Week 16** - Evaluation - conduct the user evaluation
+* **Week 17** - Evaluation - analyse the results of the user evaluation
+* **Week 19** - Write Dissertation
+* **Week 20** - Write Dissertation
+* **Week 21** - Write Dissertation
+* **Week 22** - Write Dissertation
+* **Week 23 [TERM ENDS]** - Finish Dissertation & Start Presentation
 * **Week 24** Dissertation submission deadline and presentations.
 

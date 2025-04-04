@@ -1,30 +1,10 @@
-# Code Repository
-Due to deployment issues and a certain structure being needed, the code for this project can be found here [Evergreen-Budgeting-App](https://github.com/kirstyb2003/evergreen-budgeting-app) and it can be found deployed [here](https://evergreen-budgeting-app.web.app).
+# Admin Repository
+Due to deployment issues and a certain structure being needed, the code for this project can be found in this repositiory: [Evergreen-Budgeting-App](https://github.com/kirstyb2003/evergreen-budgeting-app). The app can be found deployed [here](https://evergreen-budgeting-app.web.app).
 
-# Guidance
-This is a suggested template for a project. You can modify it as you please, but
-but remember to keep:
-
-* a timelog, updated regularly in the `timelog.md` format;
-* all source under version control;
-* data well organised and with appropriate ethical approval (for human subject data);
-
-Here's an overview of the structure as it stands:
-
-* `timelog.md` The time log for your project.
-* `plan.md` A skeleton week-by-week plan for the project. 
-* `data/` data you acquire during the project
-* `src/` source code for your project
-* `status_report/` the status report submitted in December
-* `meetings/` Records of the meetings you have during the project.
-* `dissertation/` source and for your project dissertation
-* `presentation/` your presentation
-
-* Make sure you add a `.gitignore` or similar for your VCS for the tools you are using!
-* Add any appropriate continuous integration (e.g. Travis CI) in this directory.
-
-* Remove this `readme.md` file from any repository and replace it with something more appropriate!
-
-## Important
-* It should be easy to rebuild and run your project and your dissertation
-        * Include clear instructions in the relevant directories to make this possible
+This repository contains all the admin for my fourth year project. Here you can find:
+- My dissertation source code and compiled pdf
+- My final presentation and the recordings submitted
+- The meeting minutes for all meetings with my supervisor Dr Sofiat Oloasebikan can be found in the wiki [here](https://github.com/kirstyb2003/Personal-Budget-Tracker/wiki/Meeting-Minutes).
+- My status report from December 2024
+- My weekly plan for completing work
+- Any data produced during the initial user survey and the evaluation activity.
